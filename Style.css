@@ -29,10 +29,11 @@ main.cards section.card {
     align-items: center;
     text-align: center;
     background: #565a75;
-    padding: 32px 32px;
-    border-radius: 16px;
-    max-height: 256px;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
     margin-left: 64px;
+    
 }
 
 main.cards section.card:first-child{
@@ -41,12 +42,60 @@ main.cards section.card:first-child{
 
 
 main.cards section.card .icon {
-    width: 180px;
-    height: 180px;
-
+    width: 100px;
+    height: 100px;
+    
 
 }
 
 main.cards section.card img {
-   width: 100%;
+   font-size: 100%;
+    width: 100%;
+
+}
+
+main.cards section.card h3{
+    margin: 16px 0px;
+}
+
+main.cards section.card span{
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 90%;
+    margin-bottom: 16px;
+}
+
+main.cards section.card button{
+    padding: 5px 3px;
+    text-transform: uppercase;
+    border-radius: 64px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 65%;
+    font-weight: 450;
+    color: #f0f6f0;
+}
+
+main.cards section.card.contact button{
+background: linear-gradient(to right, #b7b0b7, #735f73);
+}
+
+main.cards section.card.shop button{
+    background: linear-gradient(to right, #735f73, #b7b0b7);
+}
+
+main.cards section.card.about button{
+    background: linear-gradient(to right, #b7b0b7, #735f73);
+}
+
+main.cards section.card.contact{
+    box-shadow: 20px 20px 50px -30px #300f30;
+}
+
+main.cards section.card.shop{
+    box-shadow: 20px 20px 50px -30px #300f30;
+}
+
+main.cards section.card.about{
+    box-shadow: 20px 20px 50px -30px #300f30;
 }
